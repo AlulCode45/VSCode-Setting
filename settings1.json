@@ -1,0 +1,378 @@
+{
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    // "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "window.nativeFullScreen": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.showTabs": "none",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.guides.indentation": false,
+    "scm.diffDecorations": "none",
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "git.decorations.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    // Typography
+    "editor.fontFamily": "'Geist Mono',  'Fira Code'",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+    "terminal.integrated.lineHeight": 1.5,
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+        "**/vendor/{[^l],?[^ai]}*": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/{[^i],?[^n]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+    /**
+   * Code
+   **/
+    // Include "-" in word selection.
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    /**
+   * PHP
+   **/
+    "php.suggest.basic": false,
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "explorer.sortOrder": "type",
+    "prettier.tabWidth": 4,
+    "vetur.format.options.tabSize": 4,
+    "workbench.tree.indent": 15,
+    "editor.wordWrapColumn": 120,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": true,
+    // "editor.fontLigatures": false,
+    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "editor.minimap.maxColumn": 250,
+    "codesnap.containerPadding": "8em",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+    "explorer.confirmDelete": false,
+    "editor.accessibilitySupport": "off",
+    "chat.editor.wordWrap": "on",
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "tailwindCSS.experimental.configFile": null,
+    "editor.fontWeight": "400",
+    "workbench.activityBar.location": "hidden",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "codesnap.backgroundColor": "#FFC540",
+    "codesnap.showLineNumbers": false,
+    "codesnap.roundedCorners": true,
+    "editor.padding.top": 16,
+    "editor.cursorBlinking": "solid",
+    "editor.stickyScroll.enabled": false,
+    "editor.lineHeight": 28,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "material-icon-theme.saturation": 0,
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/alulg/vscode.config/custom-vscode.css",
+        "file:///C:/Users/alulg/vscode.config/vscode-script.js"
+    ],
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "material-icon-theme.files.color": "#42a5f5",
+    "workbench.tree.enableStickyScroll": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text-and-comment",
+        "foreground": "black",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue",
+        "gutterIcon": true
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "checkbox",
+            "foreground": "black",
+            "background": "yellow",
+            "iconColour": "yellow"
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "white",
+            "background": "cornflowerblue",
+            "iconColour": "cornflowerblue"
+        },
+        "USEFUL": {
+            "icon": "verified",
+            "foreground": "black",
+            "background": "mediumaquamarine",
+            "iconColour": "mediumaquamarine"
+        },
+        "COMMENT": {
+            "icon": "comment",
+            "foreground": "white",
+            "background": "gray",
+            "iconColour": "white"
+        },
+        "LEARN": {
+            "icon": "bookmark",
+            "foreground": "white",
+            "background": "hotpink",
+            "iconColour": "hotpink"
+        },
+        "FIXME": {
+            "icon": "tools",
+            "foreground": "crimson",
+            "background": "burlywood",
+            "iconColour": "burlywood"
+        },
+        "RECHECK": {
+            "icon": "codescan",
+            "foreground": "white",
+            "background": "chocolate",
+            "iconColour": "chocolate"
+        },
+        "INCOMPLETE": {
+            "icon": "alert",
+            "foreground": "white",
+            "background": "mediumvioletred",
+            "iconColour": "mediumvioletred"
+        },
+        "BUG": {
+            "icon": "bug",
+            "foreground": "white",
+            "background": "crimson",
+            "iconColour": "crimson"
+        },
+        "SEE NOTES": {
+            "icon": "note",
+            "foreground": "white",
+            "background": "teal",
+            "iconColour": "teal"
+        },
+        "POST": {
+            "icon": "share",
+            "foreground": "white",
+            "background": "green",
+            "iconColour": "green"
+        },
+        "[ ]": {
+            "icon": "check",
+            "foreground": "black",
+            "background": "white",
+            "iconColour": "yellow"
+        },
+        "[x]": {
+            "icon": "check",
+            "foreground": "white",
+            "background": "green",
+            "iconColour": "green"
+        }
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "SEE NOTES",
+        "HACK",
+        "FIXME",
+        "RECHECK",
+        "INCOMPLETE",
+        "TODO",
+        "NOTE",
+        "POST",
+        "USEFUL",
+        "LEARN",
+        "COMMENT",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+    "editor.formatOnPaste": true,
+    "prisma.showPrismaDataPlatformNotification": false,
+    "Devdb.colorTheme": "dark",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "accessibility.signals.lineHasError": {
+        "sound": "on"
+    },
+    "accessibility.signals.lineHasWarning": {
+        "sound": "on"
+    },
+    "accessibility.signals.lineHasFoldedArea": {
+        "sound": "on"
+    },
+    "accessibility.signals.lineHasBreakpoint": {
+        "sound": "on"
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "on"
+    },
+    "accessibility.signals.onDebugBreak": {
+        "sound": "on"
+    },
+    "accessibility.signals.noInlayHints": {
+        "sound": "on"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "gpt-commit-generator.text": "The following changes are tracked by git. Create a commit message with the most important bullet points and a short Title with words like UPDATED, ADDED, FIXED or REMOVED. After the title, add a blank line and then the bullet points. The bullet points should describe the changes in more detail but not longer than needed. Changes:",
+    "generateCommitMessage.useEmojiForCommitType": true,
+    "editor.guides.bracketPairs": true,
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": false,
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": false,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.default.cStandard": "gnu23",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "todohighlight.isEnable": true,
+    "react-native-tools.showUserTips": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.ignoreRebaseWarning": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "npm.keybindingsChangedWarningShown": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "liveshare.presence": true,
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "files.associations": {
+        "*.js": "javascript",
+        "*.tsx": "typescriptreact",
+        "*.ts": "typescript"
+    },
+    "blade.format.enable": true,
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "javascript": "javascriptreact"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": "true",
+        "markdown": true,
+        "scminput": false,
+        "yaml": "true",
+        "dart": true,
+        "json": true,
+        "html": "true",
+        "php": "true",
+        "css": "true",
+        "javascript": "true",
+        "python": "true"
+    },
+    "artisan.location": "",
+    "browser-preview.chromeExecutable": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "editor.inlineSuggest.enabled": true,
+    "gitlens.defaultDateFormat": null,
+    "gitlens.defaultTimeFormat": null,
+    "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontLigatures": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "dart.previewFlutterUiGuides": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "php-cs-fixer.allowRisky": true,
+    "php-cs-fixer.executablePathWindows": "C:/Users/alulgans/AppData/Roaming/Composer/vendor/bin/php-cs-fixer.bat",
+    "php-cs-fixer.autoFixBySemicolon": true,
+    "php-cs-fixer.formatHtml": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.wordWrap": "on",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.fontFamily": "'Fira Code',monospace",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "git.openRepositoryInParentFolders": "always",
+}
